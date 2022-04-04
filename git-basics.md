@@ -15,10 +15,13 @@ and list files/folders to omit. Anything listed inside the .gitignore file will 
 Git will notice any new files and lines of code that you create but they will not be tracked until they're staged. To stage a file use the command
 
   > git add 'filename'
+  >
   > or to stage all files use the command:
+  >
   > git add .
   >
   > to see what is staged or untracked use the command:
+  >
   > git status
 
 Once a file is staged, git will track any modifications you make. Mind you these new changes will not be in the staging area for commit. You'll have to stage those new changes if you plan to include it into the next commit. To view the changes you can use the command:
@@ -30,14 +33,18 @@ Once a file is staged, git will track any modifications you make. Mind you these
 You can think of commits as a snapshot that you can return to. Once you feel like you've reached a good spot in development to create a snapshot, stage the appropriate files (git add) then use the command:
 
   > git commit
+  >
   > the default editor will open for you to write a commit message
+  >
   > or use the shorthand command:
+  >
   > git commit -m 'your commit message'
   >
   > to view a list of your commits use the command:
   > git log
 
   > to change the default editor to your choice, use the command:
+  >
   > git config --global core.editor"name of editor"
 
 One of the core features of git is the ability to jump to previous moments in the development history. For this to be effective, it's key to ensure your commits (snapshots) are small with specific messages.
@@ -52,12 +59,15 @@ To create a new branch use the commmand:
   > git branch 'branch-name'
   >
   > to switch branches use the command:
+  >
   > git checkout 'branch-name>'
   >
   > or use the shorthand:
   >
   > git checkout -b 'branch-name'
+  >
   > to create a branch and checkout all at once
   >
   > to view all branches use the command:
+  >
   > git branch
