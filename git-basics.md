@@ -14,7 +14,7 @@ and list files/folders to omit. Anything listed inside the .gitignore file will 
 
 Git will notice any new files and lines of code that you create but they will not be tracked until they're staged. To stage a file use the command
 
-  > git add <filename>
+  > git add 'filename'
   > or to stage all files use the command:
   > git add .
   >
@@ -61,7 +61,3 @@ To create a new branch use the commmand:
   >
   > to view all branches use the command:
   > git branch
-
-# Next Stop
-
-If you made it to this point, use the 'git branch' command to view all branches.'checkout' a branch to get more details on a specific subject. Cheers!
