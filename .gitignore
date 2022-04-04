@@ -1,0 +1,3 @@
+# list files or folders you don't want tracked or public i.e. api keys, hash keys, passwords, etc.
+node_modules
+.env
