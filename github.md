@@ -24,7 +24,7 @@ If you're working on a shared repository and want to aquire the most recent work
   >
   > git fetch
 
-# What is 'origin'
+# What is 'origin'?
 
 origin represents the repository path that our current working tree points to. This is where we are pushing and pulling from. To view this use the command:
 
